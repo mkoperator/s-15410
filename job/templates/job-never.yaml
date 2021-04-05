@@ -3,7 +3,7 @@ kind: Job
 metadata:
   name: pi-never
 spec:
-  ttlSecondsAfterFinished: 10
+  ttlSecondsAfterFinished: 11
   template:
     spec:
       containers:
